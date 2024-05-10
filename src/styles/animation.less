@@ -1,0 +1,18 @@
+/**
+ * 全局自定义动画
+ */
+
+// loading 360旋转动画
+@keyframes loading {
+  0% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+
+  100% {
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+}
+
+.v-rotate {
+  animation: loading 1s steps(12, end) infinite;
+}

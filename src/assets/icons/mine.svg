@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Tab Bar/我的/高亮@2x</title>
+    <g id="Icon/Tab-Bar/我的/高亮" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="椭圆形" fill="#7FF5F1" cx="16" cy="16" r="8"></circle>
+        <path d="M21.5,12 C21.5,17.2465676 17.2465676,21.5 12,21.5 C6.75343243,21.5 2.5,17.2465676 2.5,12 C2.5,6.75343243 6.75343243,2.5 12,2.5 C17.2465676,2.5 21.5,6.75343243 21.5,12 Z" id="Stroke-1" stroke="#101010" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        <rect id="矩形" fill="#101010" x="16.5" y="8" width="1.5" height="4" rx="0.75"></rect>
+        <rect id="矩形备份-12" fill="#101010" x="9.5" y="7.5" width="1.5" height="5" rx="0.75"></rect>
+        <path d="M16.51415,15.32395 C15.27815,17.07195 12.75565,17.66995 10.88915,16.71145" id="Stroke-7" stroke="#101010" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+</svg>

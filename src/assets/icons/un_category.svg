@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="菜单-滚动-视觉效果" transform="translate(-131.000000, -825.000000)">
+            <g id="标签栏备份" transform="translate(0.000000, 819.000000)">
+                <g id="编组" transform="translate(131.750000, 6.000000)">
+                    <rect id="底板" x="0" y="0" width="24" height="24"></rect>
+                    <rect id="矩形" stroke="#999999" stroke-width="1.5" x="3" y="3" width="7.5" height="7.5" rx="1.4"></rect>
+                    <rect id="矩形备份" stroke="#999999" stroke-width="1.5" x="13.4971412" y="3" width="7.5" height="7.5" rx="1.4"></rect>
+                    <rect id="矩形备份-2" stroke="#999999" stroke-width="1.5" x="13.4971412" y="13.5" width="7.5" height="7.5" rx="3.75"></rect>
+                    <rect id="矩形" stroke="#979797" fill="#D8D8D8" transform="translate(20.685246, 20.687318) rotate(-315.000000) translate(-20.685246, -20.687318) " x="19.6852461" y="20.4373175" width="2" height="1" rx="0.5"></rect>
+                    <rect id="矩形备份-3" stroke="#999999" stroke-width="1.5" x="3" y="13.5" width="7.5" height="7.5" rx="1.4"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

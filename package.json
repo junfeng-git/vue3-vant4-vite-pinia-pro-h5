@@ -1,0 +1,39 @@
+{
+  "name": "vue3-vant4-vite-pinia-pro-h5",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "dev:mock": "cross-env USE_MOCK=true vite",
+    "build:mock": "cross-env USE_MOCK=true vite build",
+    "preview": "pnpm run build && vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "js-cookie": "^3.0.5",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.35",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "vant": "^4.6.0",
+    "vue": "^3.2.47",
+    "vue-clipboard3": "^2.0.0",
+    "vue-router": "^4.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "cross-env": "^7.0.3",
+    "less": "^4.1.3",
+    "lib-flexible": "^0.3.2",
+    "mockjs": "^1.1.0",
+    "postcss-pxtorem": "^6.0.0",
+    "unplugin-vue-components": "^0.25.1",
+    "vconsole": "^3.15.1",
+    "vite": "^4.3.9",
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-mock": "2.9.6",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vite-plugin-vconsole": "^1.3.1"
+  }
+}

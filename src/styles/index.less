@@ -1,0 +1,74 @@
+@import "./base.less";
+@import "./tab-nav.less";
+@import "./animation.less";
+@import "./vant.less";
+@import "./variables.less";
+
+.container {
+  // min-height: 100vh;
+  height: 100%;
+}
+
+// 单行文本溢出
+.single-line-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// 多行文本溢出
+.multiline-overflow {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+// 隐藏 x 轴滚动条
+.hide-x-scrollbar {
+  height: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+// 隐藏 y 轴滚动条
+.hide-y-scrollbar {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+// 0.5像素的 分割线
+.hairline {
+  position: relative;
+  &::after {
+    position: absolute;
+    box-sizing: border-box;
+    content: " ";
+    pointer-events: none;
+    top: -50%;
+    right: -50%;
+    bottom: -50%;
+    left: -50%;
+    border: 0 solid #ebedf0;
+    transform: scale(0.5);
+    border-top-width: 1px;
+  }
+}
+
+// 进度条样式修改 - 开始
+#nprogress .bar {
+  background: var(--van-primary-color) !important; //自定义颜色
+}
+#nprogress .spinner {
+  display: none !important;
+}
+// 进度条样式修改 - 结束
